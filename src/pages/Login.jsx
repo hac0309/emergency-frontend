@@ -282,16 +282,17 @@ function Login() {
             </Autobox>
 
             <>
+              <Textbtn onClick={() => navigate("/register")}>
+                Don’t have account?
+              </Textbtn>
+            </>
+            
+            <>
               <LoginBtn type="submit">Login</LoginBtn>
               <SocialBtnContainer>
                 <KakaoBtn type="button" onClick={kakaoLoginHandler} />
                 <NaverBtn type="button" onClick={naverLoginHandler} />
               </SocialBtnContainer>
-            </>
-            <>
-              <Textbtn onClick={() => navigate("/register")}>
-                Don’t have account?
-              </Textbtn>
             </>
           </Sublayout>
         </RegisterWhite>

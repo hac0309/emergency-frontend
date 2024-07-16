@@ -213,9 +213,8 @@ function FindPwd() {
       return;
     }
 
-    // console.log("http://localhost:8080/find-password", { memId, memName, memEmail });
     try {
-      const response = await axios.post("http://localhost:8080/find/pwd", { memId, memName, memEmail });
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/find/pwd`, { memId, memName, memEmail });
       // console.log(response);
       setError('이메일로 임시 비밀번호를 보냈습니다.');
     } catch (error) {
