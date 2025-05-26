@@ -23,7 +23,9 @@
 
 ## 🛠️ 기술 스택  
 - **Frontend:** React, Redux, HTML5, CSS3  
-- **Backend:** Node.js, Express, MongoDB  
+- **Backend**: Java 17, Spring Boot 3, Spring Data JPA, Spring Security, Spring oauth2
+- **Database**: H2 database, MariaDB
+- **Etc**: JWT
 - **외부 API:** 공공화장실 API, Kakao 지도 API, PortOne(구 아임포트)
 
 ---
