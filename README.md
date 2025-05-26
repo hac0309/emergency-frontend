@@ -36,12 +36,8 @@
 
 ## 📦 리액트 설치 라이브러리 정리  
 
-| 라이브러리 이름 | 설치 날짜 | 설치 명령어 | 설치한 사람 |
-|----------------|------------|----------------------|--------------|
-| react-bootstrap | 2024년 6월 25일 | `npm install react-bootstrap bootstrap` | DAVID KANG |
-| styled-components | 2024년 6월 25일 | `npm install styled-components` | DAVID KANG |
-| react-router-dom | 2024년 6월 25일 | `npm install react-router-dom` | DAVID KANG |
-| redux toolkit | 2024년 6월 25일 | `npm install @reduxjs/toolkit` | DAVID KANG |
+![image](https://github.com/user-attachments/assets/2ccc2ced-e260-435a-8641-9ef0680bc07b)
+
 
 ---
 
